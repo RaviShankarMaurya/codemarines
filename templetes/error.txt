@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "templetes/code.py", line 1, in <module>
+    tdfctydftydf
+NameError: name 'tdfctydftydf' is not defined

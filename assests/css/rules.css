@@ -1,0 +1,41 @@
+
+body{
+    background-color:#303133;
+}
+
+button{
+    width:100
+    }
+    
+p{
+    color:white;
+   
+}
+l1{
+    color:red;
+    width: 200px;
+    float: left;
+    margin: 10px 25px;
+}
+
+}
+.t1{
+    background-color: blueviolet;
+    height:400;
+    width:805;
+    
+}
+#pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    white-space: pre;
+    overflow: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    max-height: 800px;
+    font-family: monospace;
+}

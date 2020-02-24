@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+    <head>
+        <title>CODEMARINES</title>
+        <link rel="stylesheet" href="{% static 'css/rules.css' %}" type="text/css" media="all">
+    </head>
+   
+    <body>
+  
+   
+   <form method="GET" action="index2.html">
+   {% for button in buttons %}
+   <button name="q" value="{{button.question_no}}" >{{button.question_no}}</button>
+   {% endfor %}
+   </form>
+<hr>
+<p>{{Questions.question}}</p>
+<hr>
+<form action="compile.html" >
+            <button type="submit" name="q" value="{{Questions.question_no}}">run</button><br>
+             <textarea name="codebox" id="t1" style=height:400;width:805;background:rgba(0,0,0,0.2);color:#04E30F;>{{pcode}}</textarea>
+            <textarea name="coderesult" style=height:400;width:430;background:rgba(0,0,0,0.2);color:#04E30F;>{{res}}</textarea>
+            <br>
+            
+            </form>
+
+    </body>
+</html>
